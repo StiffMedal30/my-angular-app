@@ -1,0 +1,22 @@
+div {
+  padding: 5px;
+  margin: auto;
+}
+
+#header {
+  height: 100px;
+  font-size: 40px;
+  background-color: linen;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: auto;
+}
+
+#name, #text, #header {
+  text-align: center;
+}
+
+#name {
+  font-size: 20px;
+  font-weight: bold;
+}
