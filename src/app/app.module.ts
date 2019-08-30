@@ -17,9 +17,10 @@ import {MatSidenavModule} from "@angular/material/sidenav";
 import {MatCheckboxModule} from "@angular/material/checkbox";
 import {FooterComponent} from './footer/footer.component';
 import {MatListModule} from "@angular/material/list";
-import { AppRoutingModule } from './app-routing.module';
-import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
+import {AppRoutingModule} from './app-routing.module';
+import {HomeComponent} from './home/home.component';
+import {AboutComponent} from './about/about.component';
+import {DatePipe} from './date.pipe';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { AboutComponent } from './about/about.component';
     FooterComponent,
     HomeComponent,
     AboutComponent,
+    DatePipe,
   ],
   imports: [
     BrowserModule,
