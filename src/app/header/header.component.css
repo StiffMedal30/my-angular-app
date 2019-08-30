@@ -1,0 +1,11 @@
+#header {
+  background-color: #515151;
+  border-radius: 0;
+  color: white;
+}
+
+#title {
+  float: right;
+  margin: auto;
+  padding: 10px;
+}

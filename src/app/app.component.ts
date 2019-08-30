@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   name = 'Name';
+  title = 'Two way data-binding with material';
 }
