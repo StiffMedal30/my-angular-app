@@ -6,10 +6,12 @@ import {Pipe, PipeTransform} from '@angular/core';
 export class DatePipe implements PipeTransform {
 
   transform(value: any, args?: any): any {
-    let myDate : Date = new Date(value);
-    return myDate.getFullYear();
+    const myDate: Date = new Date(value);
+    if (args === 'yyyy' || args === 'YYYY') {
+      return myDate.getFullYear();
+    }
+    if (args === 'date') {
+      return new Date().toDateString();
+    }
   }
-
-
-
 }

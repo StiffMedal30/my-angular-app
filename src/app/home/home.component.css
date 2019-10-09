@@ -1,3 +1,7 @@
-.mtag{
-  padding-left: 25px;
+#current {
+  border: 1px solid #808080;
+  border-radius: 5px;
+  min-height: 100%;
+  overflow: hidden;
+  padding: 10px 50px 300px 10px;
 }
